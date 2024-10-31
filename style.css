@@ -1,0 +1,354 @@
+@import url("https://fonts.google.com/specimen/League+Spartan");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: ;
+}
+
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.overall-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 10px 80px 10px;
+}
+
+.messages-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.header {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.primary-message {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    opacity: 1;
+    font-size: medium;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+/* ===content 1 */
+
+.message-container {
+    text-align: center;
+    background-color: #512051;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 25px 30px 0px;
+}
+
+.my-image {
+    border-radius: 60px;
+    margin: 4.3px 0px 0px 20px;
+}
+
+.user-profile {
+    display: flex;
+    height: 40px;
+    gap: 15px;
+    margin: 20px 0px 0px 10px;
+}
+
+.info-box {
+    text-align: center;
+    margin: 3px 0px 0px 0px;
+}
+
+.user-name {
+    font-size: medium;
+    margin-bottom: 3px;
+}
+
+.verified-user {
+    font-size: medium;
+    color: hsl(333, 80%, 67%);
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+.tip-message {
+    text-align: start;
+    margin-left: 25px;
+    padding-top: 20px;
+    line-height: 24px;
+    /* width: 250px; */
+}
+
+/* ===content 2==== */
+
+.message-two-container {
+    text-align: center;
+    background-color: #512051;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 25px 30px 0px;
+}
+
+.second-image {
+    border-radius: 60px;
+    margin: 4.3px 0px 0px 20px;
+}
+
+.user-two-profile {
+    display: flex;
+    height: 40px;
+    gap: 15px;
+    margin: 20px 0px 0px 10px;
+}
+
+.info-two-box {
+    text-align: center;
+    margin: 3px 0px 0px 0px;
+}
+
+.user-two-name {
+    font-size: medium;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
+.verified-user-two {
+    font-size: medium;
+    color: hsl(333, 80%, 67%);
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+.tip-two-message {
+    text-align: start;
+    margin-left: 25px;
+    padding-top: 20px;
+    line-height: 24px;
+}
+
+/* ====content 3 */
+
+.message-three-container {
+    text-align: center;
+    background-color: #512051;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 25px 30px 0px;
+}
+
+.third-image {
+    border-radius: 60px;
+    margin: 4.3px 0px 0px 20px;
+}
+
+.user-three-profile {
+    display: flex;
+    height: 40px;
+    gap: 15px;
+    margin: 20px 0px 0px 10px;
+}
+
+.info-three-box {
+    text-align: center;
+    margin: 3px 0px 0px 0px;
+}
+
+.user-three-name {
+    font-size: medium;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
+.verified-user-three {
+    font-size: medium;
+    color: hsl(333, 80%, 67%);
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+.tip-three-message {
+    text-align: start;
+    margin-left: 25px;
+    padding-top: 20px;
+    line-height: 24px;
+}
+
+/* ===review one */
+
+.review-overlay {
+    margin-top: 40px;
+}
+
+.review-container {
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.review-box {
+    margin-left: 15px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.image-box {
+    padding-top: 14px;
+    margin-bottom: 5px;
+}
+
+.rates-box {
+    color: hsl(300, 43%, 22%);
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+/* ===review two */
+
+.review-container-two {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.review-box-two {
+    margin-left: 15px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.image-box-two {
+    padding-top: 14px;
+    margin-bottom: 5px;
+}
+
+.rates-box-two {
+    color: hsl(300, 43%, 22%);
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+/* ===review three */
+
+.review-container-three {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.review-box-three {
+    margin-left: 15px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.image-box-three {
+    padding-top: 14px;
+    margin-bottom: 5px;
+}
+
+.rates-box-three {
+    color: hsl(300, 43%, 22%);
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+/* ===tablet DEVICES */
+
+@media only screen and (min-width: 768px) {
+    .overall-container {
+        padding: 60px 30px 80px 30px;
+    }
+
+    .product-rate-container {
+        display: flex;
+    }
+
+    .product-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rates-container {
+        width: 50%;
+    }
+
+    .header {
+        text-align: left;
+        width: 100%;
+    }
+
+    .primary-message {
+        text-align: left;
+        margin-top: 24px;
+        max-width: 1000px;
+    }
+
+    .review-box,
+    .review-box-two,
+    .review-box-three {
+        max-width: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-left: 20px;
+        width: 400px;
+    }
+
+    .review-box-two {
+        margin-left: 60px;
+    }
+
+    .review-box-three {
+        margin-left: 120px;
+    }
+
+    .messages-box {
+        display: flex;
+        flex-direction: row;
+        max-width: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .message-two-container {
+        margin-top: 15px;
+        margin-bottom: -15px;
+    }
+
+    .message-three-container {
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+
+    .tip-message,
+    .tip-two-message,
+    .tip-three-message {
+        width: 265px;
+    }
+
+
+}
